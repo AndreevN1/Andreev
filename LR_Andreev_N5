@@ -1,0 +1,30 @@
+ps -a# output all system processes including session leaders
+ps -d# output all system processes excluding session leaders
+ps -e# output all processes of the syste
+ps -x# output system processes that do not have a control terminal
+ps -o# defines the output format as a list of fields separated by the symbol ","
+ps -u# issue processes belonging to the specified user
+
+
+ps -a#
+    PID TTY          TIME CMD
+    431 tty1     00:00:00 bash
+    456 tty1     00:00:00 ps
+
+ps -x#
+    PID TTY      STAT   TIME COMMAND
+    424 ?        Ss     0:00 /lib/systemd/systemd --user
+    425 ?        S      0:00 (sd-pam)
+    431 tty1     S      0:00 -bash
+    462 tty1     R+     0:00 ps -x
+
+ps -u#
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+admin1       431  0.0  0.2   8236  5064 tty1     S    21:38   0:00 -bash
+admin1       463  100  0.2  11040  4264 tty1     R+   21:49   0:00 ps -u
+
+top &# running the program in the background
+jobs# a list tasks that are started via the terminal
+fg# bringing the process back to the foreground
+kill# completion of the process
+
