@@ -1,0 +1,34 @@
+find# recursive traversal of the file system tree and searches for a file based on one or more
+attributes
+grep# searh for lines in a file containing a specific template you can use the command
+gzip# file compression
+tar# creating an archive file
+
+
+find -type# file type
+find -newer# files with a lower modification date than the specified file
+find -mtime# file modification date
+find -size# file size
+find -exec# executing the specified on the found files
+find -delete# file delete
+
+
+grep -n# output of the line bumber containing the template
+grep -c# output the number of rows containing the sample
+grep -i# ignore case of characters
+grep -v# output of all lines that do not contain a template
+
+tar -r# adding files to an archive
+tar -c# creating a new archive
+tar --delete# deleting files from the archive
+tar -t# output of archive contents
+tar -x# extract files from archive
+tar -f# using an archive file
+tar -v# output of the list of processed files
+
+
+
+find and wc# number of files in the home directory
+     37     333    2293
+
+
