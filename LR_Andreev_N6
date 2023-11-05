@@ -1,0 +1,44 @@
+/proc/cpuinfo# information about the CPU
+/proc/meminfo# information about memory usage
+/proc/diskstats# diks devices and their usage statistics
+/proc/version# Kernel version
+/proc/mounts# mounts information about mounted file system
+ 
+
+vmsstat# the output of the command is a system status report received 
+
+procs -----------memory---------- ---swap-- -----io---- -system-- ------cpu-----
+ r  b   swpd   free   buff  cache   si   so    bi    bo   in   cs us sy id wa st
+ 1  0      0 1837972   9892  75416    0    0   145    14  407   79  1  1 98  0  0
+ 1  0      0 1837972   9892  75416    0    0     0     0  439   43  0  0 100  0  0
+ 1  0      0 1837972   9892  75416    0    0     0    16  397   35  0  0 100  0  0
+ 1  0      0 1837972   9892  75416    0    0     0     8  376   42  0  0 99  1  0
+
+
+uptime# information abot the average system load
+
+ 11:43:14 up 14 min,  1 user,  load average: 0.00, 0.00, 0.00
+
+swapon -s# swap area size
+free -h# general information about the available physical and virtual memory in the system
+
+               total        used        free      shared  buff/cache   available
+Mem:           1.9Gi       205Mi       1.8Gi       528Ki        84Mi       1.7Gi
+Swap:          974Mi          0B       974Mi
+
+
+df -h# information about sikd space usage
+
+Filesystem      Size  Used Avail Use% Mounted on
+udev            962M     0  962M   0% /dev
+tmpfs           197M  528K  197M   1% /run
+/dev/sda1        19G  2.0G   16G  12% /
+tmpfs           984M     0  984M   0% /dev/shm
+tmpfs           5.0M     0  5.0M   0% /run/lock
+tmpfs           197M     0  197M   0% /run/user/1000
+
+du -sh# the size of any directory
+
+296K	.
+
+cron# scheduling user tasks
