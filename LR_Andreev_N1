@@ -1,0 +1,46 @@
+man# output of the manual page
+info# output of the manual page in GNU textinfo format
+echo# Text string output
+pwd# output of the user current working directory
+date# output of the current system date and time 
+who#  output of the contents of a sirectory
+ls# output of the contents of a directory
+cat# output of the contents of the file
+
+
+who#
+admin1   tty1         2023-11-06 15:20
+
+
+date#
+Mon Nov  6 03:26:24 PM +05 2023
+
+ls#
+filelist1
+LR_Andreev_N1
+LR_Andreev_N4
+LR_Andreev_N5
+LR_Andreev_N6
+nano
+
+
+ls -a#
+.
+..
+filelist1
+.git
+LR_Andreev_N1
+LR_Andreev_N4
+LR_Andreev_N5
+LR_Andreev_N6
+nano
+
+
+ls -s#
+total 24
+4 filelist1
+4 LR_Andreev_N1
+4 LR_Andreev_N4
+4 LR_Andreev_N5
+4 LR_Andreev_N6
+4 nano
