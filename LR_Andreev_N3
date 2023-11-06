@@ -1,0 +1,18 @@
+cat# output of the combined contents of the file
+less# paginated output of the file
+split# divining the file into parts
+sort# sorting and mrging files
+cut# selecting individual fields from the lines of the file
+uniq# output of information about duplicate lines of a file
+head# output of the initial lines of the file
+tail# output of the final lines
+diff# file indentifying difference between files
+wc# counting the number of characters words and lines a file
+
+ls -ltr#
+total 20
+drwxr-xr-x 3 admin1 admin1 4096 Nov  3 20:38 master
+drwxr-xr-x 3 admin1 admin1 4096 Nov  5 11:39 111
+drwxr-xr-x 5 admin1 admin1 4096 Nov  6 15:38 cat1
+drwxr-xr-x 3 admin1 admin1 4096 Nov  6 15:44 dir
+drwxr-xr-x 3 admin1 admin1 4096 Nov  6 16:02 Andreev
