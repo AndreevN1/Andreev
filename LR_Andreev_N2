@@ -1,0 +1,26 @@
+cd# changing the current working directory
+touch# file creating
+rm# files deleting
+mkdir# files or directories creating
+rmdir# directories deleting
+cp# directories copying files or directories
+mv# transferring a file or directory
+tree# output the contents of the directory as a tree
+ln# creating shortcuts links to a file or directory
+
+cat1
+├── cat2
+│   ├── cat3
+│   │   ├── cat6
+│   │   └── cat7
+│   └── cat5
+├── cat4
+└── cat8
+
+8 directories, 0 files
+
+
+dir
+└── 06.11.2023
+
+2 directories, 0 files
